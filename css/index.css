@@ -1,0 +1,67 @@
+div#barraCentral{
+	float:left;
+	margin-left:27px;		
+	margin-top:10px;	
+	box-shadow:0px 0px 6px #999;
+	background-color:#FAFAFA;
+	padding:10px;
+	width:334px;
+}
+.boxCentral{
+	float:left;
+	width:324px;
+/*	height:200px;*/
+	background-color:#FFF;
+	padding:5px;
+	border:solid 1px #BAD9EF;
+}
+.boxLeft{
+	float:left;
+	width:324px;
+	background-color:#FFF;
+	padding:5px;
+	border:solid 1px #BAD9EF;
+}
+.imgCenter{
+	float:left;
+	margin:0 auto;
+}
+.galeria{
+	width:595px;
+}
+.texto{
+	padding:15px;
+	width:575px;
+}
+/* --------------------------------------------------------------------------------------*/
+#slideshow {
+    position:relative;
+    height:400px;
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 400px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 350px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+/* --------------------------------------------------------------------------------------*/

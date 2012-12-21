@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPImi.master.cs" Inherits="MPImi" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IMI - Instituto de Metrologia Industrial Ltda</title>
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cpHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <a href="#" title="Instituto de Metereologia Industrial">
+                <img id="logo" src="img/png/logo.png" title="Instituto de Metereologia Industrial" />
+            </a><a href="#" title="English">
+                <img id="english" src="img/png/english.png" title="English version" />
+            </a>
+            <div id="contato">
+                Telefone: ( 0xx21 ) 3314-8357 / 33148256<br />
+                Email:contato@imi-usitec.com.br<br />
+                usitec.lab@uol.br
+            </div>
+            <ul class="nav">
+                <asp:ContentPlaceHolder ID="cpMenu" runat="server">
+                </asp:ContentPlaceHolder>
+            </ul>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="cpConteudo" runat="server">
+            </asp:ContentPlaceHolder>            
+            <div id="barraDir">
+                <div class="boxRight" style="margin-top: 0;">
+                    <center>
+                        <a href="http://tinyurl.com/3t37u5g">
+                            <img src="img/jpg/acreditacao.jpg" alt="Acreditação" /></a>
+                        <br />
+                        <br />
+                        <p>
+                            <u><b>Laboratório Acreditado pelo INMETRO</b></u><br />
+                        </p>
+                        <p style="text-align: left; padding-left: 5px;">
+                            O laboratório IMI - Instituto de Metrologia Industrial, pertence a Rede Brasileira
+                            de Calibração - RBC/INMETRO, nas categorias:<a href="http://tinyurl.com/3gnd6kc"
+                                target="_blank"><b>Dimensional</b></a>,<a href="http://tinyurl.com/3hrlauh" target="_blank">
+                                    <b>Eletricidade</b></a>,<a href="http://tinyurl.com/3uv7or3" target="_blank"><b>Pressão</b></a>
+                            e <a href="http://tinyurl.com/3ofld6b" target="_blank"><b>Temperatura e Umidade</b></a>
+                            - Registro Nº 0312.
+                        </p>
+                    </center>
+                </div>
+                <!-- <div class="boxRight">
+                    <center>
+                        <a href="http://tinyurl.com/3t37u5g"> 
+                        <img src="img/png/conteiner.png" alt="" style="margin-top:10px;"/></a> <br /><br />                   
+                        <p>
+                            <u><b>Container IMI-Usitec </b></u><br />
+                        </p>
+                        <p style="text-align:left;padding-left:5px;">
+                           Container equipado com equipamentos para realizar testes e inspeções em atendimento
+
+a Norma NR13.
+                        </p>
+                    </center>
+                </div>      -->
+            </div>
+            <!--<div class="barra Esc">
+            	<div class="box texto">
+                	<h2><a href="#">Calibrações de Instrumentos - Grandeza Dimensional </a></h2><br />
+                	Paquímetro Universal e Profundidade<br />
+                    Micrômetro Interno e Externo<br />
+                    Rélogio Comparador e Apalpadores<br />
+                    Trena<br />
+                    Esquadro<br />
+                    Nível de Bolha<br />
+                    Escalas até 2000 mm<br />
+                    Torquímetros<br />
+                    HI-LO<br />
+                    Medidor de Espessura por Ultra Som 
+                </div>                                                           
+            </div>
+            <div class="barra Esc">
+            	<div class="box texto">
+                	<h2><a href="#">Calibrações de Instrumentos - Grandeza Elétrica</a></h2><br />
+                	Multímetro Digital e Analógico<br />
+                    Voltímetro<br />
+                    Tacômetro<br />
+                    Pirômetro Digital e Analógico<br />
+                    Termômetro Digital<br />
+                    Amperímetro<br />
+                    Megômetro<br />
+                    Alicate Voltímetro Amperímetro<br />
+                    Fonte Geradora<br />
+                    Indicadores e Controladores de Temperatura
+                </div>
+            </div> 
+            <div class="barra Esc">
+            	<div class="box texto">
+                	<h2><a href="#">Calibrações de Instrumentos - Grandeza Pressão</a></h2><br />
+                	Manômetro Padrao<br />
+                    Manômetros de Teste <br />
+                    Manovacuômetro<br />
+                    Transdutores de Pressao<br />
+                    Esquadro<br />
+                    Nível de Bolha<br />
+                    Escalas até 2000 mm<br />
+                    Torquímetros<br />
+                    HI-LO<br />
+                    Medidor de Espessura por Ultra Som 
+                </div>
+            </div> 
+            <div class="barra Esc">
+                <div class="box texto">
+                	<h2><a href="#">Calibrações de Instrumentos - Grandeza Dimensional </a></h2><br />
+                	Paquímetro Universal e Profundidade<br />
+                    Micrômetro Interno e Externo<br />
+                    Rélogio Comparador e Apalpadores<br />
+                    Trena<br />
+                    Esquadro<br />
+                    Nível de Bolha<br />
+                    Escalas até 2000 mm<br />
+                    Torquímetros<br />
+                    HI-LO<br />
+                    Medidor de Espessura por Ultra Som 
+                </div>
+             </div>     -->
+            <div id="footer">
+                <a href="http://www.twitter.com/" target="_blank" title="twitter"><span class="twitter">
+                </span></a><a href="http://facebook.com/" target="_blank" title="facebook"><span
+                    class="facebook"></span></a>
+                <p>
+                    Copyright © 2010 - Instituto de Metereologia Industrial - website desenvolvido por
+                    <a href="Http://www.damasio34.com">Damasio34</a> - All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
